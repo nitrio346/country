@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/country" element ={<Content/>} />
-          <Route path= "/country:id" element ={<CountryPage/>} />
+          <Route path="https://michal5675.github.io/country/" element ={<Content/>} />
+          <Route path= "https://michal5675.github.io/country/:id" element ={<CountryPage/>} />
         </Routes>
        </Router>
     </div>
