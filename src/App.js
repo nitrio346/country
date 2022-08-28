@@ -10,7 +10,7 @@ function App() {
   
   return (
     <div className="App">
-      <Router basename='https://michal5675.github.io/country'>
+      <Router>
         <Routes>
           <Route path="/" element ={<Content/>} />
           <Route path= "/:id" element ={<CountryPage/>} />
